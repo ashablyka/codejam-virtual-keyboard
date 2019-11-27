@@ -1,0 +1,87 @@
+.textarea {
+    width: 765px;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.keyboard {
+    width: 751px;
+    background: #2b2946;
+    border-radius: 5px;
+    padding: 15px 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+.key {
+    width: 40px;
+    height: 45px;
+    margin-right: 5px;
+    background: linear-gradient(#3B3B3B, #070707);
+    border: 2px solid #808080;
+    border-radius: 3px;
+    box-shadow: 0 0 0 2px #000000;
+    text-align: center;
+    line-height: 45px;
+}
+
+.key:last-child {
+    margin-right: 0;
+}
+
+.key:hover {
+    background: linear-gradient(#878686, #505050);
+    cursor: pointer;
+}
+
+.backspace {
+    width: 110px;
+}
+
+.tab {
+    width: 52px;
+}
+
+.del {
+    width: 49px;
+}
+
+.capslock {
+    width: 82px;
+}
+
+.enter {
+    width: 117px;
+}
+
+.left-shift {
+    width: 64px;
+}
+
+.right-shift {
+    width: 89px;
+}
+
+.space {
+    width: 355px;
+}
+
+.arrow {
+    font-size: 10px;
+}
+
+.pressed {
+    background: linear-gradient(#878686, #505050);
+    transform: translate(3px, 3px);
+    transition: all 0.2s ease 0s;
+}
